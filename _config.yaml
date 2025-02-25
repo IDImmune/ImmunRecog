@@ -1,8 +1,7 @@
 # site properties and page defaults
 title: Li ID Immune Lab
-subtitle: Advance immune recognition
-permalink: At UConn Health
-{% if page.subtitle %}{{ page.subtitle }}{% endif %}
+subtitle: Advance immune recognition at UConn Health
+
 description: An engaging 1-3 sentence description of your lab.
 header: images/IMG_8102.jpg
 footer: images/IMG_8102.jpg
