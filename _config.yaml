@@ -2,6 +2,7 @@
 title: Li ID Immune Lab
 subtitle: Advance immune recognition
 permalink: At UConn Health
+{% if page.subtitle %}{{ page.subtitle }}{% endif %}
 description: An engaging 1-3 sentence description of your lab.
 header: images/IMG_8102.jpg
 footer: images/IMG_8102.jpg
