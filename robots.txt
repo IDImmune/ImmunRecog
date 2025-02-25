@@ -1,1 +1,1 @@
-Sitemap: http://lilab.immunology/sitemap.xml
+Sitemap: https://tropicbird83.github.io/ImmunRecog/sitemap.xml
