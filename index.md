@@ -3,7 +3,7 @@
 
 # tropicbird83's Website
 
-Our lab is dedicated to exploring immune recognition across various interfaces, including phagosomes, mitochondria, and mucosal surfaces etc., at both the cellular and organismal levels. One of our primary ongoing projects involves PhagoPL, an innovative proximity-labeling technique we have developed to perform proteomic analysis of phagosomal proteins.
+Our lab is dedicated to exploring immune recognition across various interfaces, including phagosomes, mitochondria, and mucosal surfaces etc., at both the cellular and organismal levels. One of our primary ongoing projects involves PhagoPL, an innovative proximity-labeling technique we have developed to perform proteomic analysis of phagosomal proteins
 
 {% include section.html %}
 
