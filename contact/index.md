@@ -2,76 +2,32 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Contact and openings
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<span style="font-size: 30px; line-height: 1.2; font-weight: bold; display: block; margin-bottom: 15px;">
+  🧪 Join Our Team
+</span>
 
-{%
-  include button.html
-  type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
-%}
+<span style="font-size: 20px; line-height: 1.4; display: block; margin-bottom: 10px;">
+  We are actively recruiting <strong>research technicians</strong>, <strong>graduate students</strong>, and <strong>postdoctoral scholars</strong> who are curious, ambitious, and passionate about immunology and bioengineering.
+</span>
 
-{% include section.html %}
+<span style="font-size: 20px; line-height: 1.4; display: block; margin-bottom: 10px;">
+  We welcome scientists from all backgrounds and are committed to fostering a lab culture rooted in inclusion, respect, and collaboration.
+</span>
 
-{% capture col1 %}
+<span style="font-size: 20px; line-height: 1.4; display: block; margin-bottom: 10px;">
+  If you're interested in joining the lab, please reach out to me via email:
+</span>
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+<span style="font-size: 20px; line-height: 1.4; display: block; margin-bottom: 15px;">
+  kali@uchc.edu
+</span>
 
-{% endcapture %}
+<p style="font-size: 20px; line-height: 1.3; margin-top: 20px; text-align: left;">
+  Kai Li<br>
+  Principal Investigator
+</p>
 
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
