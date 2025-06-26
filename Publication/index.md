@@ -1,27 +1,32 @@
 ---
-title: Publication
+title: Publications
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-{% include tags.html tags="publication, resource, website" %}
+
+{% include section.html %}
+
+{% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include section.html %}
+## Highlighted
 
-## Featured
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
-{% include section.html %}
+{% assign featured = site.data.citations | where: "featured", true %}
+{% for pub in featured %}
+  {% include citation.html lookup=pub.id style="rich" %}
+{% endfor %}
 
-## More
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+## All
+
+
+
+{% include list.html data="citations" component="citation" style="rich" %}
