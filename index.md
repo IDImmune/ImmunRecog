@@ -1,65 +1,50 @@
 ---
 ---
 
-# tropicbird83's Website
+# <span style="font-size: 23px;">**Exploring the Mechanisms of Immune Recognition at Cellular and Organismal Interfaces**</span>
 
-Our lab is dedicated to exploring immune recognition across various interfaces, including phagosomes, mitochondria, and mucosal surfaces etc., at both the cellular and organismal levels. One of our primary ongoing projects involves PhagoPL, an innovative proximity-labeling technique we have developed to perform proteomic analysis of phagosomal proteins
+<div style="text-align: center;">
+  <img src="images/graphical-abstract-small.png" alt="Graphical abstract" style="width: 40%;">
+</div>
 
-{% include section.html %}
 
-## Lab news
+
+
+
+## Highlights
+<!--
+### 2025
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our study on cross-species immune sensor adaptation was published in *Nature Immunology*, revealing conserved mechanisms across mammals and birds.
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="publications#2025"
+  text="Read the paper"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  image="images/highlights/2025-nature-immunology.jpg"
+  link="publications#2025"
+  title="Nature Immunology Study"
   text=text
 %}
 
-{% capture text %}
+---
+-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+### 2024
 
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our lab officially opened at UConn Health! We're excited to start recruiting and collaborating.
 
 {%
   include button.html
@@ -69,13 +54,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   flip=true
   style="bare"
 %}
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="/images/uconn_health.jpg"
   link="team"
-  title="Our Team"
+  title="Lab Opening"
   text=text
 %}
+
