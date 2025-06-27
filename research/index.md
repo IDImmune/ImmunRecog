@@ -17,7 +17,7 @@ Our work focuses on using cutting-edge techology to understand mechanisms of imm
   {% for project in site.data.projects %}
     {% if project.group == "featured" %}
     <div class="project-card">
-      <img src="{{ project.image }}" alt="{{ project.title }}">
+      <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.title }}">
       <div class="project-card-text">
         <h3>{{ project.title }}</h3>
         {% if project.subtitle %}
@@ -49,7 +49,7 @@ Our work focuses on using cutting-edge techology to understand mechanisms of imm
 }
 
 .project-card img {
-  width: 33.33%;      /* image takes one-third of card width */
+  width: 33.33%;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
@@ -57,7 +57,7 @@ Our work focuses on using cutting-edge techology to understand mechanisms of imm
 }
 
 .project-card-text {
-  width: 66.66%;      /* text takes two-thirds */
+  width: 66.66%;
   display: flex;
   flex-direction: column;
   justify-content: center;
