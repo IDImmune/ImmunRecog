@@ -47,14 +47,3 @@
 
     <p>In parallel, we are also developing new approaches to study host-intrinsic responses to <strong>bacteria that escape from vacuoles into the cytosol</strong>.</p>
 
-- title: Host Interaction with Intracellular Bacteria
-  group: featured
-  image: /images/projects/bacteria.png
-  tags:
-    - research
-  description: >
-    <p>In earlier work, we applied <strong>PhagoPL</strong> to analyze phagosomes containing avirulent gram-negative <em>E. coli</em>. Our ongoing efforts aim to extend this work to <strong>pathogenic intracellular bacteria</strong>, investigating how host cells interact with a broader range of virulent species.</p>
-
-    <p>This project will use PhagoPL to dissect host-bacteria interactions within bacteria-containing vacuoles, with the goal of identifying novel mechanisms of innate immune and bacteria virulence conteraction.</p>
-
-    <p>In parallel, we are also developing new approaches to study host-intrinsic responses to <strong>bacteria that escape from vacuoles into the cytosol</strong>.</p>
