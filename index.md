@@ -1,7 +1,7 @@
 ---
 ---
 
-# <span style="font-size: 23px;">**Exploring the Mechanisms of Immune Recognition at Cellular and Organismal Interfaces**</span>
+# <span style="font-size: 23px; text-transform: none;">**Exploring the Mechanisms of Immune Recognition at Cellular and Organismal Interfaces**</span>
 
 <div style="text-align: center;">
   <img src="images/graphical-abstract-small.png" alt="Graphical abstract" style="width: 40%;">
