@@ -5,6 +5,6 @@
 
   # tropicbird83's Website
 
-  Visit **[idimmune.github.io/lab-website](https://idimmune.github.io/lab-website)** 🚀
+  Visit **[idimmune.github.io/ImmunRecog](https://idimmune.github.io/ImmunRecog)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
