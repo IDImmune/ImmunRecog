@@ -1,1 +1,1 @@
-Sitemap: https://idimmune.github.io/ImmunRecog/sitemap.xml
+Sitemap: http://idimmune.science/sitemap.xml
